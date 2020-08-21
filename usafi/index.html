@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Dashboard - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,700,400italic,300italic,700italic">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/Button-thib.css">
+    <link rel="stylesheet" href="assets/css/Juvi---Blue-Button-Animated.css">
+    <link rel="stylesheet" href="assets/css/Navbarbuttonsignupsignin-modal-form-1.css">
+    <link rel="stylesheet" href="assets/css/Navbarbuttonsignupsignin-modal-form-2.css">
+    <link rel="stylesheet" href="assets/css/Navbarbuttonsignupsignin-modal-form.css">
+    <link rel="stylesheet" href="assets/css/select2.css">
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0">
+            <div class="container-fluid d-flex flex-column p-0">
+                <a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
+                    <div class="sidebar-brand-icon rotate-n-15"><img src="assets/img/logo1.PNG" alt="logo" style="width: 100px; height: 100px;" /></div>
+                    <div class="sidebar-brand-text mx-3"><span>technawa</span></div>
+                </a>
+                <hr class="sidebar-divider my-0">
+                <ul class="nav navbar-nav text-light" id="accordionSidebar">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a></li>
+                    <li class="nav-item" role="presentation"></li>
+                    <!-- <li class="nav-item" role="presentation"><a class="nav-link active" href="login.html"></a></li> -->
+                    <!-- <li class="nav-item" role="presentation"><a class="nav-link" href="register.html"></a></li> -->
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#"></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#"></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#"></a></li>
+                </ul>
+                <div class="text-center d-none d-md-inline"><button class="btn rounded-circle border-0" id="sidebarToggle" type="button"></button></div>
+            </div>
+        </nav>
+        <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content">
+                <nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top">
+                    <div class="container-fluid"><button class="btn btn-link d-md-none rounded-circle mr-3" id="sidebarToggleTop" type="button"><i class="fas fa-bars"></i></button>
+                        <ul class="nav navbar-nav flex-nowrap ml-auto">
+                            <li class="nav-item dropdown d-sm-none no-arrow"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><i class="fas fa-search"></i></a>
+                                <div class="dropdown-menu dropdown-menu-right p-3 animated--grow-in" role="menu" aria-labelledby="searchDropdown">
+                                    <form class="form-inline mr-auto navbar-search w-100">
+                                        <div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Search for ...">
+                                            <div class="input-group-append"><button class="btn btn-primary py-0" type="button"><i class="fas fa-search"></i></button></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </li>
+                         
+                            <div class="d-none d-sm-block topbar-divider"></div>
+                            <li class="nav-item dropdown no-arrow" role="presentation">
+                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"></a>
+                                    <div class="dropdown-menu shadow dropdown-menu-right animated--grow-in" role="menu"><a class="dropdown-item" role="presentation" href="#"><i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Profile</a><a class="dropdown-item" role="presentation" href="#"><i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Settings</a>
+                                        <a
+                                            class="dropdown-item" role="presentation" href="#"><i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Activity log</a>
+                                            <div class="dropdown-divider"></div><a class="dropdown-item" role="presentation" href="#"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Logout</a></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="container-fluid">
+                    <div class="d-sm-flex justify-content-between align-items-center mb-4">
+                        <h3 class="text-dark mb-0">Dashboard</h3><a class="btn btn-primary btn-sm d-none d-sm-inline-block" role="button" href="#"><i class="fas fa-download fa-sm text-white-50"></i>&nbsp;Generate Report</a></div>
+                    <div class="row">
+                        <div class="col">
+                            <h6 class="text-center text-primary border rounded-0" style="padding: 10px 0px;padding-top: 10px;">CHOOSE DEVICE</h6>
+                        </div>
+                        <div class="col">
+                            <h6 class="text-uppercase text-center text-primary border rounded-0" style="padding: 10px 0px;padding-top: 10px;">LOCATION DATA</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col offset-xl-0"><div class="input-group">
+  <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+    <!-- <option selected>Choose Device </option>
+    <option value="1">TechNawa001</option>
+    <option value="2">TechNawa002</option>
+    <option value="3">TechNawa003</option>
+    <option value="4">TechNawa004</option>
+    <option value="5">TechNawa005</option>
+    <option value="6">TechNawa006</option>
+   <option value="7">TechNawa007</option>
+	<option value="8">TechNawa008</option>
+   <option value="9">TechNawa009</option>
+   <option value="10">TechNawa0010</option> -->
+  </select>
+  <div class="input-group-append">
+    <button class="btn btn-outline-secondary" type="button">Filter</button>
+  </div>
+</div><span class="input-group-text">&nbsp; &nbsp; &nbsp; &nbsp;County Deployed&nbsp; &nbsp;&nbsp;</span><select class="form-control" name="county">
+    <option value='Baringo'>Baringo</option>
+    <option value='Bomet'>Bomet</option>
+    <option value='Bungoma'>Bungoma</option>
+    <option value='Busia'>Busia</option>
+    <option value='Elgeyo-Marakwet'>Elgeyo-Marakwet</option>
+    <option value='Embu'>Embu</option>
+    <option value='Garissa'>Garissa</option>
+    <option value='Homa Bay'>Homa Bay</option>
+    <option value='Isiolo'>Isiolo</option>
+    <option value='Kajiado'>Kajiado</option>
+    <option value='Kakamega'>Kakamega</option>
+    <option value='Kericho'>Kericho</option>
+    <option value='Kiambu'>Kiambu</option>
+    <option value='Kilifi'>Kilifi</option>
+    <option value='Kirinyaga'>Kirinyaga</option>
+    <option value='Kisii'>Kisii</option>
+    <option value='Kisumu'>Kisumu</option>
+    <option value='Kitui'>Kitui</option>
+    <option value='Kwale'>Kwale</option>
+    <option value='Laikipia'>Laikipia</option>
+    <option value='Lamu'>Lamu</option>
+    <option value='Machakos'>Machakos</option>
+    <option value='Makueni'>Makueni</option>
+    <option value='Mandera'>Mandera</option>
+    <option value='Marsabit'>Marsabit</option>
+    <option value='Meru'>Meru</option>
+    <option value='Migori'>Migori</option>
+    <option value='Mombasa'>Mombasa</option>
+    <option value='Murang'a'>Murang'a</option>
+    <option value='Nairobi City'>Nairobi City</option>
+    <option value='Nakuru'>Nakuru</option>
+    <option value='Nandi'>Nandi</option>
+    <option value='Narok'>Narok</option>
+    <option value='Nyamira'>Nyamira</option>
+    <option value='Nyandarua'>Nyandarua</option>
+    <option value='Nyeri'>Nyeri</option>
+    <option value='Samburu'>Samburu</option>
+    <option value='Siaya'>Siaya</option>
+    <option value='Taita-Taveta'>Taita-Taveta</option>
+    <option value='Tana River'>Tana River</option>
+    <option value='Tharaka-Nithi'>Tharaka-Nithi</option>
+    <option value='Trans Nzoia'>Trans Nzoia</option>
+    <option value='Turkana'>Turkana</option>
+    <option value='Uasin Gishu'>Uasin Gishu</option>
+    <option value='Vihiga'>Vihiga</option>
+    <option value='West Pokot'>West Pokot</option>
+    <option value='wajir'>wajir</option>
+</select></div>
+                        <div class="col">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend"></div>
+                            </div><span class="input-group-text">&nbsp; &nbsp; &nbsp; &nbsp;Town Deployed&nbsp; &nbsp; &nbsp; &nbsp;</span><select class="form-control" name="county">
+    <option value='Adams Arcade'>Adams Arcade</option>
+    <option value='Airport North'>Airport North</option>
+    <option value='Airport View'>Airport View</option>
+    <option value='Akiba South 'C''>Akiba South 'C'</option>
+    <option value='Amboseli'>Amboseli</option>
+    <option value='Area 4'>Area 4</option>
+    <option value='Area One'>Area One</option>
+    <option value='Area Three'>Area Three</option>
+    <option value='>Area Two<'>Area Two</option>
+    <option value='>Avenue Park'>Avenue Park</option>
+	<option value='> Ayany'>Ayany</option>
+	 <option value='Bahati'>Bahati</option>
+    <option value='Belle view'>Belle View</option>
+    <option value='Benhard Estate'>Benhard Estate</option>
+    <option value='Bista'>Bista</option>
+    <option value='Bomas of Kenya'>Bomas of Kenya</option>
+    <option value='Bulbul'>Area Three</option>
+    <option value='>Carnivore<'>Carnivore</option>
+    <option value='>Chiromo'>Chiromo</option>
+	<option value='City Estate'>Estate View</option>
+    <option value='Closeburn'>Closeburn</option>
+    <option value='Continental'>Continental</option>
+    <option value='Cross Road'>Cross Road</option>
+    <option value='Dagoretti'>Dagoretti</option>
+    <option value='>Dandora<'>Dandora</option>
+    <option value='>Doonholm'>Doonholm</option>
+	<option value='Drive-in'>Drive-in</option>
+    <option value='Eastlands'>Eastlands</option>
+    <option value='Eastleigh'>Eastleigh</option>
+    <option value='Elbulbul'>Elbulbul</option>
+    <option value='Embakasi'>Embakasi</option>
+    <option value='Evergreen'>Evergreen</option>
+    <option value='Faulkners Vlei'>Faulkner's Vlei</option>
+    <option value='Fedha'>Fedha</option>
+    <option value='>Five Star<'>Five Star</option>
+    <option value='>Fort Jesus'>Fort Jesus</option>
+	<option value='> Four A'>Four A</option>
+	 <option value='Four B'>Four B</option>
+    <option value='Friends Court'>Friends Court</option>
+    <option value='Funguo'>Funguo</option>
+    
+</select></div>
+                        <div class="col">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend"><span class="input-group-text">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Longitude&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></div><input type="text" id="longitude" value="0.0000"></div>
+                        </div>
+                        <div class="col">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend"><span class="input-group-text">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Latitude&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></div><input type="text" id="latitude" name="latitude" value="0.00000"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-xl-3 mb-4">
+                            <div class="card shadow border-left-primary py-2">
+                                <div class="card-body">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col mr-2">
+                                            <div class="text-uppercase text-primary font-weight-bold text-xs mb-1"><span>Temperature</span></div>
+                                            <div class="text-dark font-weight-bold h5 mb-0"><span id="temperature">0.00 °C)</span></div>
+                                        </div>
+                                        <div class="col-auto"><i class="fas fa-temperature-high fa-2x text-gray-300"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-3 mb-4">
+                            <div class="card shadow border-left-success py-2">
+                                <div class="card-body">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col mr-2">
+                                            <div class="text-uppercase text-success font-weight-bold text-xs mb-1"><span>Humidity</span></div>
+                                            <div class="text-dark font-weight-bold h5 mb-0"><span id="humidity">0.00%</span></div>
+                                        </div>
+                                        <div class="col-auto"><i class="fas fa-cloud-rain fa-2x text-gray-300"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-3 mb-4">
+                            <div class="card shadow border-left-info py-2">
+                                <div class="card-body">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col mr-2">
+                                            <div class="text-uppercase text-info font-weight-bold text-xs mb-1"><span>tank water level</span></div>
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="text-dark font-weight-bold h5 mb-0 mr-3"><span id="waterlevel">50%</span></div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="progress progress-sm">
+                                                        <div class="progress-bar bg-info" id="tcp" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"><span class="sr-only">50%</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-auto"><i class="fas fa-ruler-vertical fa-2x text-gray-300"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-3 mb-4">
+                            <div class="card shadow border-left-warning py-2">
+                                <div class="card-body">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col mr-2">
+                                            <div class="text-uppercase text-warning font-weight-bold text-xs mb-1"><span>Tap counter</span></div>
+                                            <div class="text-dark font-weight-bold h5 mb-0"><span id="tapc">0</span></div>
+                                        </div>
+                                        <div class="col-auto"><i class="fas fa-clock fa-2x text-gray-300"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-7 col-xl-8">
+                            <div class="card shadow mb-4">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <h6 class="text-primary font-weight-bold m-0">Earnings Overview</h6>
+                                    <div class="dropdown no-arrow"><button class="btn btn-link btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button"><i class="fas fa-ellipsis-v text-gray-400"></i></button>
+                                        <div class="dropdown-menu shadow dropdown-menu-right animated--fade-in"
+                                            role="menu">
+                                            <p class="text-center dropdown-header">dropdown header:</p><a class="dropdown-item" role="presentation" href="#">&nbsp;Action</a><a class="dropdown-item" role="presentation" href="#">&nbsp;Another action</a>
+                                            <div class="dropdown-divider"></div><a class="dropdown-item" role="presentation" href="#">&nbsp;Something else here</a></div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="chart-area"><canvas data-bs-chart="{&quot;type&quot;:&quot;line&quot;,&quot;data&quot;:{&quot;labels&quot;:[&quot;Jan&quot;,&quot;Feb&quot;,&quot;Mar&quot;,&quot;Apr&quot;,&quot;May&quot;,&quot;Jun&quot;,&quot;Jul&quot;,&quot;Aug&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;Earnings&quot;,&quot;fill&quot;:true,&quot;data&quot;:[&quot;0&quot;,&quot;10000&quot;,&quot;5000&quot;,&quot;15000&quot;,&quot;10000&quot;,&quot;20000&quot;,&quot;15000&quot;,&quot;25000&quot;],&quot;backgroundColor&quot;:&quot;rgba(78, 115, 223, 0.05)&quot;,&quot;borderColor&quot;:&quot;rgba(78, 115, 223, 1)&quot;}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:false,&quot;legend&quot;:{&quot;display&quot;:false},&quot;title&quot;:{},&quot;scales&quot;:{&quot;xAxes&quot;:[{&quot;gridLines&quot;:{&quot;color&quot;:&quot;rgb(234, 236, 244)&quot;,&quot;zeroLineColor&quot;:&quot;rgb(234, 236, 244)&quot;,&quot;drawBorder&quot;:false,&quot;drawTicks&quot;:false,&quot;borderDash&quot;:[&quot;2&quot;],&quot;zeroLineBorderDash&quot;:[&quot;2&quot;],&quot;drawOnChartArea&quot;:false},&quot;ticks&quot;:{&quot;fontColor&quot;:&quot;#af8929&quot;,&quot;padding&quot;:20}}],&quot;yAxes&quot;:[{&quot;gridLines&quot;:{&quot;color&quot;:&quot;rgb(234, 236, 244)&quot;,&quot;zeroLineColor&quot;:&quot;rgb(234, 236, 244)&quot;,&quot;drawBorder&quot;:false,&quot;drawTicks&quot;:false,&quot;borderDash&quot;:[&quot;2&quot;],&quot;zeroLineBorderDash&quot;:[&quot;2&quot;]},&quot;ticks&quot;:{&quot;fontColor&quot;:&quot;#af8929&quot;,&quot;padding&quot;:20}}]}}}"></canvas></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="bg-white sticky-footer">
+                <div class="container my-auto">
+                    <div class="text-center my-auto copyright"><span>Copyright © UsafiIoT 2020</span></div>
+                </div>
+            </footer>
+        </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a></div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/chart.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+    <script src="assets/js/Navbarbuttonsignupsignin-modal-form.js"></script>
+    <script src="assets/js/select2-1.js"></script>
+    <script src="assets/js/select2-2.js"></script>
+    <script src="assets/js/select2-3.js"></script>
+    <script src="assets/js/select2-4.js"></script>
+    <script src="assets/js/select2-5.js"></script>
+    <script src="assets/js/select2-6.js"></script>
+    <script src="assets/js/select2.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/functions.js"></script>
+</body>
+
+</html>
