@@ -1,0 +1,46 @@
+<!DOCTYPE.html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/navbar.css">
+</head>
+<body>
+    
+    <div class="navbar">
+    <ul>
+    <li><a href="home.html">HOME</a></li>
+    <li><a href="post.html">UPLOAD</a></li>
+    <li><a href="managenotes.php">SYLLABUS</a></li>
+    <li><a href="users.php">USERS</a></li>
+    <li><a href="resource.html">RESOURCE</a></li>
+    </ul>
+</div>
+
+<div class="addbox">
+
+<form class="form_post"  method="POST" action="upload.php" enctype="Multipart/form-data" style="text-align: center;">
+
+<lable>Upload File</lable>
+<input type="file" name="pdf"/><br/><br/><br/><br/>
+
+	<label>Name</label><br/>
+	<input type="text"  name="name"><br/><br/><br/><br/>
+
+	<label>Institution</label><br/>
+	<input type="text"  name="institution" ><br/><br><br/><br/>
+	
+		Course:
+		<select name="course">
+	<option>Select Any</option>
+		<option value="Robotics">Robotics</option>
+			<option value="IOT">IOT</option>
+				<option value="Drones">Drones</option>
+					<option value="Data Science">Data Science</option>
+					</select><br/><br>
+
+<input type="submit" name="submit1" value="submit">
+	
+</form>
+</div>	
+</body>
+</html>
